@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+/* -------------------------------------------- */
+.header{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.title{
+    display: flex;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    gap:4px;
+}
+a{
+    text-decoration: none;
+}
+
+.description{
+    display: flex;
+}
+
+
+
+/* -------------------------------------------- */
+.info{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.facts{
+    display: flex;
+
+}
+
+
+
+
+
+/* -------------------------------------------- */
+.quote{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+/* -------------------------------------------- */
+
+
+.action{
+    flex:1;
+    display: flex;
+
+}
+/* -------------------------------------------- */
+.footer{
+    flex:1;
+    
+}
