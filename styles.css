@@ -177,12 +177,13 @@ a{
 .card{
     display: flex;
     background-color: #3882f6;
-    margin:100px 200px;
+    margin:75px 150px;
     justify-content: space-around;
     flex:1;
     padding: 30px 60px;
     border-radius: 10px;
     align-items: center;
+    max-width: 800px;
 
 }
 .card>.left{
@@ -191,7 +192,7 @@ a{
     display: flex;
     flex-direction: column;
     margin:0px;
-    flex:1;
+    flex:3;
 }
 
 .card>.right{
@@ -200,6 +201,11 @@ a{
     display:flex;
     background-color: #3882f6;
     height: auto;
+    justify-content: end;
+}
+.text {
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 
@@ -224,4 +230,12 @@ button{
     margin: 0px;
     border: 2px solid #e5e7eb;
     padding: 5px 19px;
+}
+
+/* ---------------------------------------- */
+.footer{
+    text-align: center;
+    padding: 20px 0px;
+    color:#e5e7eb;
+    font-size: 12px;
 }
