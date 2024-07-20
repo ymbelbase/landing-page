@@ -18,12 +18,14 @@ body{
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
+    justify-content: space-evenly;
 }
 
 ul{
     display:flex;
     list-style: none;
-    gap:4px;
+    gap: 24px;
+    justify-content: end;
 }
 a{
     text-decoration: none;
@@ -33,17 +35,54 @@ a{
 
 .description{
     display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.left{
+    flex:1;
+    max-width: 450px;
+    margin: 100px 50px;
+}
+
+.right{
+    flex:1;
+    background-color:grey;
+    margin:100px 50px;
+    max-width: 500px;   
+    display:flex;
+    justify-content: center; 
+}
+.bg{
+    color:#e5e7eb;
+    align-self: center;
 }
 
 .main-title{
     color: #f9faf8;
-    font-size: 49px;
+    font-size: 48px;
     font-weight:800;
 }
 
 .title-description{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.logo{
+    align-self:  center;
+    text-align: left;
+    font-weight: 800;
+    margin: 10px 50px;
+    flex:1;
+    max-width: 450px;
+}
+
+.links{
+    max-width: 500px;
+    flex: 1;
+    margin:10px 50px;
 }
 
 
@@ -104,4 +143,9 @@ a{
 button{
     background-color: #3882f6;
     color: #f9faf8;
+    border:5px solid #3882f6;
+    border-radius: 8px;
+    padding: 2px 16px;
+    font-weight:600;
+    margin-top: 10px;
 }
