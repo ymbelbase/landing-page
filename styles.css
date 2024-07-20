@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: Roboto,'Times New Roman', Times, serif;
 }
 /* -------------------------------------------- */
 .header{
     flex:1;
     display: flex;
     flex-direction: column;
-    
-    
+    background-color: #1F2937;    
 }
-.title{
+.header .title{
     display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 ul{
@@ -23,11 +27,25 @@ ul{
 }
 a{
     text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;;
 }
 
 .description{
     display: flex;
 }
+
+.main-title{
+    color: #f9faf8;
+    font-size: 49px;
+    font-weight:800;
+}
+
+.title-description{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 
 
 
@@ -43,6 +61,13 @@ a{
 
 }
 
+.info-title
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 
 
 
@@ -52,6 +77,14 @@ a{
     flex:1;
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+    
+}
+
+.quote>.main{
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
 }
 /* -------------------------------------------- */
 
@@ -59,10 +92,16 @@ a{
 .action{
     flex:1;
     display: flex;
+    background-color: #3882f6;;
 
 }
 /* -------------------------------------------- */
 .footer{
     flex:1;
-    
+    background-color: #1F2937;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
 }
